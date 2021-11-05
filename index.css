@@ -1,0 +1,258 @@
+.attribution {
+
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1050px ) {
+    ul {
+        position: relative;
+        display: flex;
+        flex-direction: row
+    }
+
+    body {
+        width: 100vw;
+    }
+}
+
+#sneakersTitle {
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    margin-left: 100px;
+    /*font-family: 'Kumbh Sans', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+}
+
+#pngCart {
+    position: absolute;
+    top: 48px;
+    right: 250px
+}
+
+#divAvatar {
+    position: absolute;
+    top: 32px;
+    right: 150px
+}
+
+#avatarPng {
+    width: 50px
+}
+
+#containerPic {
+    margin-left: 10rem;
+    margin-top: 12rem;
+}
+
+#bigPic {
+    width: 25rem;
+    height: 26rem;
+    border-radius: 5%;
+}
+
+#containerPics {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9.4rem;
+
+}
+
+
+#textContainer {
+    position: absolute;
+    top: 16.5rem;
+    right: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#titleOrange {
+    margin-bottom: 15px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#titleText {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#description {
+    opacity: 0.5;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+#priceContainer {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Kumbh Sans';
+    font-weight: 900
+}
+
+#price {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#reduction {
+    padding: 5px;
+    border-radius: 15%;
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 20px;
+    color: hsl(26, 100%, 55%);
+}
+
+#barredREduction {
+    font-size: 20px;
+    position: relative;
+    margin-top: 15px;
+    color: grey;
+}
+
+#barre {
+    position: absolute;
+    top: -6px;
+    left: 2px;
+}
+
+#buttons1 {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 14px;
+    padding: 14px;
+    width: 120px;
+    background-color: rgba(128, 128, 128, 0.2);
+
+}
+
+#buttons2 {
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: hsl(26, 100%, 55%);
+    width: 12rem;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+#cartSvg2 {
+    height: 13px;
+   margin: 9px 30px 9px 40px;
+    filter: invert(5%) sepia(53%) saturate(135%) hue-rotate(60deg) brightness(5000%) contrast(200%) /* rendre un svg blanc technoque trouve sur internet voir https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element#:~:text=You%20can't%20change%20the,or%20using%20inline. */
+
+}
+
+#buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#minusButton, #plusButton {
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: hsl(26, 100%, 55%);
+}
+#buttons2{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+#textAddCart{
+    color:white;
+}
+#compteur2{
+    position:absolute;
+    background-color:red;
+    width: 1.5rem;
+    height:1.5rem;
+    padding:3px;
+    text-align: center;
+    color:white;
+    border-radius:50%;
+    bottom:1.25rem;
+    visibility: hidden;
+}
+
+
+.littlePics {
+    width: 87px;
+    height: 87px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+ul {
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: row;
+    color: #a89d9d;
+    margin-left: 250px;
+}
+
+
+li {
+    list-style-type: none;
+    padding-left: 30px;
+    cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif
+
+}
+
+hr {
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+button {
+    border: none;
+}
+
+
+.littlePics:nth-child(1):hover {
+    opacity: 0.3;
+}
