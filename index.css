@@ -30,21 +30,42 @@ nav {
     }
     .attribution {
         position:absolute;
-      bottom: -30rem;
+      bottom: -31rem;
         left:20rem;
     }
+     nav  #sneakersTitle {
+
+    font-size: 30px;
+    margin-left: 80%;
+    /*font-family: 'Kumbh Sans', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+}
+  #pngCart  {
+      margin-top:10rem ;
+    margin-right: -60%;
+}
+
+
+#divAvatar {
+       margin-top:1rem ;
+    margin-right: -29rem;
+}
 nav ul {
     display: flex;
     flex-direction:column;
-    margin:3rem 35% 1rem 40%;
+    margin-top:3rem ;
+    margin-bottom: 4rem;
+    margin-left: 70%;
 }
     #containerPic #bigPic{
         margin-top: 5rem;
-        width:100%;
+        width:100vw;
+         min-width: 35rem;
     }
     #containerPics img{
-          width:100%;
-        min-width: 20px;
+           width:100vw;
+        min-width: 8rem;
+        min-height: 8rem;
      }
     nav span {
         margin-right: 4rem;
@@ -53,25 +74,17 @@ nav ul {
        margin-left: 3rem;
     }
 
- nav  #sneakersTitle {
 
-    font-size: 30px;
-    margin-left: 50%;
-    /*font-family: 'Kumbh Sans', sans-serif;*/
-    font-family: 'Rubik', sans-serif;
-}
-  #pngCart {
-          margin:10rem -20% 2rem 10%;
-}
-
-#divAvatar {
-       margin:10rem -10% 2rem 10%;
-}
 #textContainer {
-    margin-right:-20rem;
-   margin-top:36rem;
+    margin-right:-27rem;
+   margin-top:38rem;
 
 
+}
+#textContainer #description{
+     width:100vw;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 ul{
    width: 80%;
