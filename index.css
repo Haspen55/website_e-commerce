@@ -1,6 +1,6 @@
 .attribution {
 
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 10%;
     font-size: 11px;
     text-align: center;
@@ -10,6 +10,98 @@
     color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (max-width: 1000px) {
+    body {
+        position: relative;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: -40rem;
+        left: 20rem;
+    }
+
+    nav #sneakersTitle {
+
+        font-size: 30px;
+        margin-left: 80%;
+        /*font-family: 'Kumbh Sans', sans-serif;*/
+        font-family: 'Rubik', sans-serif;
+    }
+
+    #pngCart {
+        margin-top: 1rem;
+        margin-right: -125%;
+    }
+
+
+    #divAvatar {
+        margin-top: 1rem;
+        margin-right: -29rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        margin-left: 70%;
+    }
+     #containerPic{
+       margin-right:5rem;
+     }
+
+    #containerPic #bigPic {
+        margin-top: 5rem;
+       margin-left: -5rem;
+        min-width: 35rem;
+    }
+    #containerPics img{
+        min-width: 4rem;
+    }
+
+
+    #containerPics {
+        width:100vw;
+
+
+    }
+
+    nav span {
+        margin-right: 4rem;
+    }
+
+    nav span ul {
+        margin-left: 3rem;
+    }
+
+
+    #textContainer {
+        margin-right: -22rem;
+        margin-top: 38rem;
+
+
+    }
+
+    #textContainer #description {
+        width: 100vw;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    ul {
+        width: 80%;
+    }
+
+    hr {
+        display: none
+    }
+
+    hr {
+        width: 80%;
+        margin: auto;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -24,80 +116,6 @@ nav {
     flex-direction: row;
 }
 
-@media only screen and (max-width: 1000px){
-    body{
-        position: relative
-    }
-    .attribution {
-        position:absolute;
-      bottom: -31rem;
-        left:20rem;
-    }
-     nav  #sneakersTitle {
-
-    font-size: 30px;
-    margin-left: 80%;
-    /*font-family: 'Kumbh Sans', sans-serif;*/
-    font-family: 'Rubik', sans-serif;
-}
-  #pngCart  {
-      margin-top:10rem ;
-    margin-right: -60%;
-}
-
-
-#divAvatar {
-       margin-top:1rem ;
-    margin-right: -29rem;
-}
-nav ul {
-    display: flex;
-    flex-direction:column;
-    margin-top:3rem ;
-    margin-bottom: 4rem;
-    margin-left: 70%;
-}
-    #containerPic #bigPic{
-        margin-top: 5rem;
-        width:100vw;
-         min-width: 35rem;
-    }
-    #containerPics img{
-           width:100vw;
-        min-width: 8rem;
-        min-height: 8rem;
-     }
-    nav span {
-        margin-right: 4rem;
-    }
-     nav span ul {
-       margin-left: 3rem;
-    }
-
-
-#textContainer {
-    margin-right:-27rem;
-   margin-top:38rem;
-
-
-}
-#textContainer #description{
-     width:100vw;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-ul{
-   width: 80%;
-}
-hr{
-    display: none
-}
-
-hr {
-    width: 80%;
-    margin:auto;
-}
-}
 
 #sneakersTitle {
     position: absolute;
@@ -231,7 +249,7 @@ hr {
 
 #cartSvg2 {
     height: 13px;
-   margin: 9px 30px 9px 40px;
+    margin: 9px 30px 9px 40px;
     filter: invert(5%) sepia(53%) saturate(135%) hue-rotate(60deg) brightness(5000%) contrast(200%) /* rendre un svg blanc technoque trouve sur internet voir https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element#:~:text=You%20can't%20change%20the,or%20using%20inline. */
 
 }
@@ -248,25 +266,28 @@ hr {
     cursor: pointer;
     color: hsl(26, 100%, 55%);
 }
-#buttons2{
+
+#buttons2 {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
 
 }
-#textAddCart{
-    color:white;
+
+#textAddCart {
+    color: white;
 }
-#compteur2{
-    position:absolute;
-    background-color:red;
+
+#compteur2 {
+    position: absolute;
+    background-color: red;
     width: 1.5rem;
-    height:1.5rem;
-    padding:3px;
+    height: 1.5rem;
+    padding: 3px;
     text-align: center;
-    color:white;
-    border-radius:50%;
-    bottom:1.25rem;
+    color: white;
+    border-radius: 50%;
+    bottom: 1.25rem;
     visibility: hidden;
 }
 
